@@ -1,0 +1,152 @@
+#webpage {
+  color: #222;
+  margin:0 auto;
+  min-width: 1600px;
+  width: 960px;
+}
+
+#introduction {
+  margin-block-start: 0;
+  background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  height: 350px;
+  background-position-x: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'Abril Fatface';
+  position: relative;
+}
+
+#greeting {
+  position: absolute;
+  top: 200px;
+  left: 33%;
+}
+
+#name {
+  position: absolute;
+  top: 180px;
+  left: 33%;
+  font-size: 250%;
+}
+
+#content {
+  width: 60%;
+  margin: auto;
+}
+
+#firstBox {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  position: relative;
+}
+
+.list{
+  list-style-type: square;
+}
+
+#firstQuote {
+  background-color: #222;
+  height: 150px;
+  color: white;
+  margin: 0 15%;
+  font-size: 250%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Abril Fatface', cursive;
+  resize: none;
+  position: relative;
+}
+
+#firstQuote::before {
+  content: "\201C";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 350%;
+}
+
+.secondBox {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Merriweather', serif;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.topic {
+  margin-top: 40px;
+  text-transform: uppercase
+}
+
+.summary {
+  margin: 25px 0;
+}
+
+#secondQuote {
+  background-color: #222;
+  height: 200px;
+  color: white;
+  margin: 0 15%;
+  margin-top: 50px;
+  font-size: 250%;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Abril Fatface', cursive;
+  padding: 0 40px;
+}
+
+#secondQuote::before {
+  content: "\201C";
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  font-size: 350%;
+}
+
+#exp {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.position {
+  margin: 0;
+}
+
+.location {
+  margin: 40px 0 0 0;
+}
+
+#thirdQuote {
+  background-color: #222;
+  height: 200px;
+  color: white;
+  margin: 0 15%;
+  font-size: 250%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Abril Fatface', cursive;
+  resize: none;
+  position: relative;
+  padding: 0 50px;
+}
+
+#thirdQuote::before {
+  content: "\201C";
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  font-size: 350%;
+}
+
+hr {
+  background-color: black;
+  height: 5px;
+  margin: 5% 0;
+}
